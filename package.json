@@ -1,0 +1,24 @@
+{
+  "name": "xst-cli",
+  "version": "1.0.0",
+  "description": "This is a tool for init front-end template project",
+  "main": "index.js",
+  "bin": {
+    "xst-cli": "./bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xst",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "mem-fs": "^2.1.0",
+    "mem-fs-editor": "^9.0.0",
+    "ora": "^5.4.0"
+  }
+}
